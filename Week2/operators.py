@@ -1,5 +1,5 @@
-x = 5
-y = 2
+x = 100
+y = -19
 
 print(x * y)
 
@@ -17,3 +17,5 @@ print(name, age)
 print(name + " " + str(age))
 
 print(name * 3)
+
+print("Some text", age)
