@@ -1,3 +1,5 @@
+import math
+
 x = 100
 y = -19
 
@@ -5,9 +7,11 @@ print(x * y)
 
 print(x / y)
 
-print(x // y)
+print(x // y) # floor division, returns the whole number only
 
-print(x % y)
+print(x % y) # 50 % 20 = 10, 50 -20 -20 = 10
+
+
 
 name = "Steve"
 
