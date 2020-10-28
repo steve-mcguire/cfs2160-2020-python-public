@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""tuple.py, tuple demo and usage"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 staff = ("Ilias", "Steve", "Rubiya", "Kevin")
 
 print(len(staff))

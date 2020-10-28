@@ -1,4 +1,8 @@
-# details how to use the in keyword
+#!/usr/bin/python3
+"""in_usage.py, simple demo of in keyword with usage"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
 
 tutors = ["Ilias", "Steve", "Kevin", "Rubiya"]
 

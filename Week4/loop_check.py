@@ -1,14 +1,15 @@
-#loop n times until a conditon is met
+#!/usr/bin/python3
+""".loop_check.py, checks to see if inputted data is equal to required value"""
 
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
+# loop n times until a condition is met
 password = "password"
 
 while True:
     user_input = input("Please enter your password").lower()
-    #print(user_input)
-
-    result = user_input == password
-    print(result)
-    if result:
+    if user_input == password:
         print("inputs match")
         break
     else:

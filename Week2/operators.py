@@ -1,4 +1,8 @@
-import math
+#!/usr/bin/python3
+"""operator.py, a demo of some common python operators and their usage"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
 
 x = 100
 y = -19

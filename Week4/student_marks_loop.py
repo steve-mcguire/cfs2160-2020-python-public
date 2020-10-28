@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""student_marks_loop.py, example of better programme"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
 grades = []
 while True:
     try:# this is a try block which deals with an exception,

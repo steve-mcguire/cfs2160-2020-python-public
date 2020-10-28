@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""rent_a_car.py, demo of input with checks and output"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 age = int(input("Please enter your age? "))
 
 has_driving_license = input("Do you have a valid driving license? (YES / NO)")

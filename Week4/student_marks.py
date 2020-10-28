@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""student_marks.py, example of bad programme"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
 name = input("What is your name? ")
 
 mark_1 = int(input("Enter mark 1: "))

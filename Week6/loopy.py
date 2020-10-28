@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""loopy.py, some example of loops"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 message = "Hello. World"
 
 for c in message:

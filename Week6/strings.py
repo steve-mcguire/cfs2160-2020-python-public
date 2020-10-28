@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""strings.py, "some examples of string slice and usage"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 message = "Hello. World"
 
 reading = "35p"
