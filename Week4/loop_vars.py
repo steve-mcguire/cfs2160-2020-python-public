@@ -4,8 +4,9 @@
 __author__ = "Steve McGuire"
 __contact__ = "s.mcguire@hud.ac.uk"
 
-x = 0
-for r in range(0, 10):
-    x += r
+l = []
+x = 5
+for i in range(5):
+    print(l.append(input("Blah" + str(i))))
 
 print(x)

@@ -4,16 +4,17 @@
 __author__ = "Steve McGuire"
 __contact__ = "s.mcguire@hud.ac.uk"
 
-x = 100
-y = -19
+import math
+seats_on_bus = 24
+passengers = 25
 
-print(x * y)
+# print(x * y)
 
-print(x / y)
+print("you will need",  math.ceil(passengers / seats_on_bus), "busses")
 
-print(x // y) # floor division, returns the whole number only
+print(seats_on_bus // passengers) # floor division, returns the whole number only
 
-print(x % y) # 50 % 20 = 10, 50 -20 -20 = 10
+print(seats_on_bus % passengers) # 25 % 24 = 1
 
 
 
