@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""weather_station.py, basic implementation of loops with input and outputs"""
+"""weather_station_better.py, basic implementation of loops with input and outputs"""
 
 __author__ = "Steve McGuire"
 __contact__ = "s.mcguire@hud.ac.uk"
