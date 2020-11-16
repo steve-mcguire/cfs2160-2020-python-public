@@ -6,10 +6,14 @@ __contact__ = "s.mcguire@hud.ac.uk"
 
 readings = []
 
+def c_to_f(value):
+    return value * 1.8 + 32
+
+
+
 number_of_readings = int(input("enter number of readings"))
 
 for r in range(number_of_readings):
-    # readings.append(float(input("Please enter temp " + str(r + 1) + ": ")))
     # get input as string
     # slice temp and scale
     # normalise data to C or F
@@ -26,8 +30,9 @@ for r in range(number_of_readings):
     else:
         print("Error in input")
 
+# print(c_to_f(37.7), "line 31")
 
-
-print("Min is " + str(min(readings)))
-print("Max is ", max(readings))
-print("AVG is" + str(round(sum(readings) / len(readings), 2)) + "b")
+print("Min is (C) ", min(readings), "/ (F) " )
+print("Max is (C)", max(readings), "/ (F)",)
+print("AVG is (C) ", sum(readings) / len(readings), "/ (F) "
+      , (sum(readings) / len(readings)) * 1.8 + 32)
