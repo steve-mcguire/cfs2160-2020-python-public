@@ -6,10 +6,6 @@ __contact__ = "s.mcguire@hud.ac.uk"
 
 readings = []
 
-def c_to_f(value):
-    return value * 1.8 + 32
-
-
 
 number_of_readings = int(input("enter number of readings"))
 
@@ -30,9 +26,8 @@ for r in range(number_of_readings):
     else:
         print("Error in input")
 
-# print(c_to_f(37.7), "line 31")
 
-print("Min is (C) ", min(readings), "/ (F) " )
-print("Max is (C)", max(readings), "/ (F)",)
+print("Min is (C) ", min(readings), "/ (F) ", min(readings) * 1.8 + 32)
+print("Max is (C)", max(readings), "/ (F)", min(readings) * 1.8 + 32)
 print("AVG is (C) ", sum(readings) / len(readings), "/ (F) "
       , (sum(readings) / len(readings)) * 1.8 + 32)
