@@ -4,7 +4,30 @@
 __author__ = "Steve McGuire"
 __contact__ = "s.mcguire@hud.ac.uk"
 
-message = "Hello. World"
+list_of_int = [1, 3, 2, 4, 5, 3, 2, 4, 5]
+
+for i in list_of_int:
+    print(i)
+
+to_check = 10
+while True:
+    var_1 = int(input("Enter a number"))
+    if var_1 == to_check:
+        print("Number correct")
+        break
+    else:
+        print("Try again")
+
+
+#print(list_of_int)
+
+
+
+
+message = "steve-hud.ac.uk"
+
+s = message.split("-")
+print(s[1])
 
 for c in message:
     print('')
