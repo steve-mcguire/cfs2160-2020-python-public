@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""number_guess.py, an implementation of the number guess task"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
+
 import random
 secret_number = random.randint(0, 101)
 

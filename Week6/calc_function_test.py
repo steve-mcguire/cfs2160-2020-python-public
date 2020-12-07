@@ -1,6 +1,8 @@
-"""
-simple programme to multiply values
-"""
+#!/usr/bin/python3
+"""calc_function.py, sample function to multiply 2 numbers"""
+
+__author__ = "Steve McGuire"
+__contact__ = "s.mcguire@hud.ac.uk"
 
 
 def multiply(v1, v2):
