@@ -6,7 +6,6 @@ def check_message(message, to_check):
         return True
     elif split_word[0] == '':
         return False
-    elif split_word[1] in :
 
 
 print(check_message("-world", "World"))
